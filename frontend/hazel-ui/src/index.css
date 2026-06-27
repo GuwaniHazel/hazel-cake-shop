@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  body {
+    background-color: #faf6f0;
+    color: #222222;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #faf6f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #cfadb0;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8b654b;
+}
+
+/* Elegant luxury card class with micro-lift on hover */
+.luxury-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(111, 78, 55, 0.04);
+  box-shadow: 0 4px 20px -2px rgba(111, 78, 55, 0.04);
+  border-radius: 16px;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 35px -10px rgba(111, 78, 55, 0.08);
+  border-color: rgba(111, 78, 55, 0.1);
+}
+
+/* Elegant gold divider */
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.05) 0%, rgba(212, 175, 55, 0.3) 50%, rgba(212, 175, 55, 0.05) 100%);
+}
+
+/* Page transitions */
+.page-fade-in {
+  animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+/* ===== LUXURY COLOR PALETTE ===== */
+:root {
+  --color-gold: #C9A96E;
+  --color-gold-light: #E8D5A3;
+  --color-gold-dark: #A8894A;
+  --color-champagne: #F7F0E8;
+  --color-cream: #FAF6F0;
+  --color-mocha: #4A3728;
+  --color-mocha-light: #7A5C44;
+  --color-charcoal: #2C2420;
+  --color-rose-gold: #E8C4B8;
+  --color-sage: #D4D0C8;
+}
+
+/* ===== FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;600;700&display=swap');
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+/* ===== CUSTOM SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-dark);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

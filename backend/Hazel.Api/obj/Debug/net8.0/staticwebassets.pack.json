@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\guwan\\Desktop\\cakeshop\\backend\\Hazel.Api\\wwwroot\\uploads\\chocolate_espresso.jpg",
+      "PackagePath": "staticwebassets\\uploads\\chocolate_espresso.jpg"
+    },
+    {
+      "Id": "C:\\Users\\guwan\\Desktop\\cakeshop\\backend\\Hazel.Api\\wwwroot\\uploads\\classic_vanilla.jpg",
+      "PackagePath": "staticwebassets\\uploads\\classic_vanilla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\guwan\\Desktop\\cakeshop\\backend\\Hazel.Api\\wwwroot\\uploads\\hazelnut_praline.jpg",
+      "PackagePath": "staticwebassets\\uploads\\hazelnut_praline.jpg"
+    },
+    {
+      "Id": "C:\\Users\\guwan\\Desktop\\cakeshop\\backend\\Hazel.Api\\wwwroot\\uploads\\pistachio_blossom.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pistachio_blossom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\guwan\\Desktop\\cakeshop\\backend\\Hazel.Api\\wwwroot\\uploads\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\uploads\\placeholder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\guwan\\Desktop\\cakeshop\\backend\\Hazel.Api\\wwwroot\\uploads\\salted_caramel.jpg",
+      "PackagePath": "staticwebassets\\uploads\\salted_caramel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\guwan\\Desktop\\cakeshop\\backend\\Hazel.Api\\wwwroot\\uploads\\velvet_rose.jpg",
+      "PackagePath": "staticwebassets\\uploads\\velvet_rose.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Hazel.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Hazel.Api.props",
+      "PackagePath": "build\\Hazel.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Hazel.Api.props",
+      "PackagePath": "buildMultiTargeting\\Hazel.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Hazel.Api.props",
+      "PackagePath": "buildTransitive\\Hazel.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
