@@ -429,4 +429,6 @@ FodyWeavers.xsd
 *.msp
 
 # .NET SDK installation folder - ADDED
+
+# .NET SDK installation folder
 .dotnet/
